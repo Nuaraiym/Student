@@ -5,8 +5,8 @@ from pydantic import BaseModel
 
 
 
-model = joblib.load('model.pkl')
-scaler = joblib.load('scaler.pkl')
+model = joblib.load('model (1).pkl')
+scaler = joblib.load('scaler (1).pkl')
 
 
 student_app = FastAPI()
